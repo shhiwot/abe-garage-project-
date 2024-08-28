@@ -1,0 +1,44 @@
+
+.theme-btn.btn-style-one {
+  border-radius: 8px; 
+}
+.line {
+  height: 3px;
+  width: 0px;
+  border-radius: 5px;
+  background-color: rgb(218, 96, 96);
+  display: block;
+  transition: 0.9s width ease-in-out;
+  position: relative;
+  top: -1px;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+.form-group input:focus  + .line {
+  width: 100%;
+  background-color:#08194A;
+  margin: 0px;
+  padding: 0px;
+}
+
+.form-group input {
+  border: 2px solid rgba(128, 128, 128, 0.268); /* Default border color */
+  border-radius: 4px; /* Optional: Adjust border-radius for rounded corners */
+  padding: 10px; /* Optional: Adjust padding for better appearance */
+  width: 100%; /* Optional: Make sure the input takes full width of its container */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Styling for input fields when focused */
+.form-group input:focus {
+  border-color: black; /* Change border color to black on focus */
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for better focus indication */
+}
+/* .validation-error{
+  padding: 10px 40px 10px 15px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fee6e6;
+  border: 0.5px solid rgb(202, 202, 202);
+  outline: none;
+} */
