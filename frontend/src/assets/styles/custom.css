@@ -1,0 +1,84 @@
+.video-section .sec-bg {
+  background-image: url("../../assets/images/banner/banner.jpg");
+  background-size: cover; /* Adjusts the image to cover the entire element */
+  background-position: center; /* Centers the image within the element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 100%; /* Set the width as needed */
+  height: 70vw; /* Set the height as needed */
+}
+/* //banner 2 */
+.another-section .sec-bg {
+  background-image: url("../../assets/images/banner/banner.jpg");
+  background-size: cover; /* Adjusts the image to cover the entire element */
+  background-position:center ; /* Centers the image within the element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 100%; /* Set the width as needed */
+  height: 70vw; /* Set the height as needed */
+}
+
+.image {
+  background-image: url("../../assets/images/banner/carwheel.png");
+  background-size: cover; /* Adjusts the image to cover the entire element */
+  background-position: 100% center; /* Centers the image within the element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 100%; /* Set the width as needed */
+  height: 100%; /* Set the height as needed */
+  position: relative; /* Set to relative to move the element */
+  top: 100px; /* Moves the div down from its normal position */
+  left: 3px; /* Moves the div to the right from its normal position */
+}
+.image4 {
+  background-image: url("../../assets/images/banner/carImg4.png");
+  background-size: cover; /* Adjusts the image to cover the entire element */
+  background-position: 100% center; /* Centers the image within the element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 100%; /* Set the width as needed */
+  height: 100%; /* Set the height as needed */
+  position: relative; /* Set to relative to move the element */
+  top: 0px; /* Moves the div down from its normal position */
+  left: 3px; /* Moves the div to the right from its normal position */
+}
+.wrapper-box {
+  display: flex;
+  flex-direction: row;
+}
+.left-column:first-child {
+  font-size: 10px !important;
+}
+.phone {
+  font-size: 24px !important;
+}
+  
+
+
+.line {
+  height: 3px;
+  width: 0%;
+  border-radius: 5px;
+  background-color: rgb(218, 96, 96);
+  display: block;
+  transition: 0.9s width ease-in-out;
+  position: relative;
+  top: -2px;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+step {
+  /* font-size: 30px; */
+  font-weight: 50px;
+  margin-bottom: 7px;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-family: cursive;
+  font-weight: 100;
+}
+.step:hover +.line {
+  width: 80%;
+  background-color: rgb(218, 96, 96);
+  margin: 0px;
+  padding: 0px;
+}
+.box-shadow{
+  max-width:200px;
+  border-radius: 8px;
+  box-shadow: 4px 5px 20px rgba(20, 17, 17, 0.039);
+}
