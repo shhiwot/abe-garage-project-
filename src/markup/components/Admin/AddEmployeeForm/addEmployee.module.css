@@ -1,0 +1,64 @@
+.contact_section .external_container .contact_title h2 {
+  padding:5% 8%;
+  font-size: 30px;
+}
+.validation_error{
+  color: red;
+  float: right;
+  font-style: italic;
+}
+select.custom_select-box {
+  border-right: 25px solid #dddddd;
+}
+.external_container .contact_form .theme-btn span {
+  color: #fff;
+}
+.theme_btn a {
+  color: #fff;
+}
+/* Another */
+/* Admin pages */
+.admin_left_side {
+  background-color:#222b48;
+}
+.admin_right_side {
+  background: rgb(246 247 250);
+  border-bottom: 1px solid #dfe2ec;
+}
+.admin_menu {
+  background: #1e2331;
+  padding: 10px 20px;
+}
+.admin_left_side .list_group_item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: #3c404c;
+  border-color: #3c404c;
+  border-bottom: 1px solid #616675;
+}
+.admin_menu h2 {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 50px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgb(249, 249, 249);
+  display: block;
+  text-decoration: none;
+}
+.admin_left_side.col-md-3 {
+  padding: 0;
+}
+.admin_left_side .list_group_item {
+  background-color: #222b48;
+  border-bottom: 1px solid #616675;
+  margin-bottom: 0px;
+  color: #fff;
+}
+.admin_left_side a {
+  /* color: #a2a5ad; */
+  color: #fff;
+}
+.admin_left_side a:hover {
+  color: #fff;
+}
